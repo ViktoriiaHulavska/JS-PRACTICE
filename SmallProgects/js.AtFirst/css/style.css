@@ -1,0 +1,20 @@
+
+button{
+    background-color: hotpink;
+    border-radius: 100px;
+    width: 100px;
+    border: none;
+    
+}
+input{
+    background-color: violet;
+    border-radius: 100px;
+  
+}
+
+.out{
+    background-color: darkturquoise;
+    margin-top: 10px;
+   
+    min-width: 300px;
+}

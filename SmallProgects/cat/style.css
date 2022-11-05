@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  max-width: 600px;
+  padding: 16px;
+  background-color: darkslateblue;
+  margin: 16px;
+  box-shadow: 5px 5px 15px grey;
+  border-radius: 10px;
+}
+
+.btn{
+  padding: 8px;
+  border-radius: 10px;
+}
+.btn:hover{
+  background-color: darkslateblue;
+  transition: 2s;
+  color: aliceblue;
+}
